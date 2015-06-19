@@ -70,14 +70,14 @@ function animateShape() {
 	    	flagOrange = true;
 	    }
 	    // pink
-	    if( (y > pub && y < adv && flagPink == true) || (y > pub && y < adv && flagOrange == false) || (y > pub && y < adv && flagYellow == false) ){
+	    if( (y >= pub && y < adv && flagPink == true) || (y >= pub && y < adv && flagOrange == false) || (y >= pub && y < adv && flagYellow == false) ){
 	    	animatePink();
 	    	flagYellow = true;
 	    	flagPink = false;
 	    	flagOrange = true;
 	    }
 	    // orange
-	    if( (y > adv && flagOrange == true) || (y > adv && flagPink == false)) {
+	    if( (y >= adv && flagOrange == true) || (y >= adv && flagPink == false)) {
 	    	animateOrange();
 	    	flagYellow = true;
 	    	flagPink = true;
