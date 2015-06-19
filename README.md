@@ -1,7 +1,5 @@
 # sticky-svg
 
-===
-
 A 'sticky' `svg`  background shape.
 
 In this demo, the shape can have three color states, with animations associated to them.
